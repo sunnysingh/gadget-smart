@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Gadget Smart</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Alef:400,700" rel="stylesheet">
   </head>
   <body>
-    <div id="root"></div>
+    
+
+    <div class="top-bar">
+      <img src="../img/logo.svg" width="50px">
+      Gadget Smart
+    </div>
+
+    <div class="hero">
+      <div class="hero__container">
+        <h2>Bite-Sized Gadget Reviews</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum elementum lorem, et dictum ante scelerisque vitae.
+        </p>
+      </div>
+    </div>
+
+    <div class="content">
+
+      <div class="cards">
+        <div class="cards__card">
+          <h3>Newsletter</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum elementum lorem, et dictum ante scelerisque vitae.
+          </p>
+          <div class="cards__bottom">
+            <input type="text" class="card-field" placeholder="Email">
+            <button class="card-button">Subscribe</button>
+          </div>
+        </div>
+
+        <div class="cards__card">
+          <h3>Podcast</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum elementum lorem, et dictum ante scelerisque vitae.
+          </p>
+          <div class="cards__bottom">
+            <button class="blue-button">Listen</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-module">
+        <div class="info-module__img">
+          <img src="../img/leon.jpg">
+        </div>
+        <div class="info-module__desc">
+          <h4>Hosted By</h4>
+          <h2>Leon Hitchens</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum elementum lorem, et dictum ante scelerisque vitae. In erat mauris, commodo eu nulla a, scelerisque luctus nisi. Integer fermentum, ipsum in rutrum hendrerit, dui arcu vulputate lorem, ut dapibus nunc leo nec magna. Vestibulum eget tellus faucibus, hendrerit nisi vel, tristique nisi.
+          </p>
+        </div>
+      </div>
+
+       <div class="info-module">
+        <div class="info-module__img">
+          <img src="../img/db.png">
+        </div>
+        <div class="info-module__desc">
+          <h4>Project From</h4>
+          <h2>Digital Bounds</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum elementum lorem, et dictum ante scelerisque vitae. In erat mauris, commodo eu nulla a, scelerisque luctus nisi. Integer fermentum, ipsum in rutrum hendrerit, dui arcu vulputate lorem, ut dapibus nunc leo nec magna. Vestibulum eget tellus faucibus, hendrerit nisi vel, tristique nisi.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      &copy; Gadget Smart - 2017
+    </div>
 
     <!-- inline webpack manifest -->
     <%= htmlWebpackPlugin.files.webpackManifest %>

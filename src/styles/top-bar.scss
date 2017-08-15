@@ -1,0 +1,18 @@
+.top-bar {
+  padding: 30px;
+  text-align: left;
+  color: $blue;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+
+  img {
+    padding-right: 20px;
+  }
+
+  @media(max-width: $mobile){
+    font-size: 25px;
+    justify-content: center;
+    padding: 15px 0px;
+  }
+}

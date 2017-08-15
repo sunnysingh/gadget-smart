@@ -1,0 +1,32 @@
+.hero {
+  width: 100%;
+
+  &__container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 100px;
+  }
+
+  h2 {
+    font-size: 45px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: 10px;
+    color: $lightGray;
+  }
+
+  @media(max-width: $mobile){
+    &__container {
+      width: 90%;
+      padding: 50px 20px;
+    }
+  }
+}

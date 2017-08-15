@@ -1,3 +1,8 @@
-body {
-  background-color: #CB3837;
-}
+@import 'colors.scss';
+@import 'globals.scss';
+@import 'breakpoints.scss';
+
+@import 'top-bar.scss';
+@import 'hero.scss';
+@import 'content.scss';
+@import 'footer.scss';
