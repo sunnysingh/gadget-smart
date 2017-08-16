@@ -12,6 +12,7 @@
   &__right {
     ul {
       list-style: none;
+      padding-left: 0px;
     }
     li {
       display: inline-block;
@@ -23,6 +24,22 @@
       border-left: 2px solid $lightGray;
       padding-left: 20px;
       margin-left: 20px;
+    }
+  }
+
+  @media(max-width: $mobile) {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+
+    &__right {
+      li:last-child {
+        padding-left: 0px;
+        margin-left: 10px;
+        border: none;
+      }
     }
   }
 }
