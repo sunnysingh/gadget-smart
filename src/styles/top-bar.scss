@@ -16,3 +16,10 @@
     padding: 15px 0px;
   }
 }
+
+.fixed-scroll {
+  position: fixed;
+  top: 0;
+  z-index: -5;
+  height: 700px;
+}

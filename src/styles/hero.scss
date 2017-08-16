@@ -24,9 +24,17 @@
   }
 
   @media(max-width: $mobile){
+    h2 {
+      font-size: 36px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 30px;
+    }
     &__container {
       width: 90%;
-      padding: 50px 20px;
+      padding: 50px 10px;
+      margin: 0 auto;
     }
   }
 }

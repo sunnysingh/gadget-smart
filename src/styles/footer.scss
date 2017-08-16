@@ -1,4 +1,28 @@
 .footer {
   font-size: 20px;
-  padding: 30px;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__left {
+    
+  }
+
+  &__right {
+    ul {
+      list-style: none;
+    }
+    li {
+      display: inline-block;
+      margin: 0px 10px;
+      cursor: pointer;
+    }
+
+    li:last-child {
+      border-left: 2px solid $lightGray;
+      padding-left: 20px;
+      margin-left: 20px;
+    }
+  }
 }

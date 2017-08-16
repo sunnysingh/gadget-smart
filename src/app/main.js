@@ -11,3 +11,12 @@ export function sum (a: number, b: number): number {
 if (module.hot) {
   module.hot.accept() // eslint-disable-line
 }
+
+document.getElementsByClassName('blue-button')[0].onclick = function () {
+  document.getElementsByClassName('podcast-modal')[0].classList.toggle('flex')
+  document.getElementsByClassName('shade')[0].classList.toggle('flex')
+}
+
+document.getElementsByClassName('shade')[0].onclick = function () {
+  document.getElementsByClassName('podcast-modal')[0].classList.toggle('flex')
+}
